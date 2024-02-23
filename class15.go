@@ -58,6 +58,8 @@ func main() {
   return s1 + s2
  }
 
+ //fmt.Println(concat("Hello ", "World"))
+
  result := concat("Hello ", "World")
 
  fmt.Println("Concatenation: ", result)
@@ -77,12 +79,12 @@ func main() {
 
  fmt.Println("Reversed String: ", result)
 
-}
+}*/
 
 package main
 
 import (
- "fmt"
+	"fmt"
 )
 
 func main() {
@@ -110,7 +112,7 @@ func main() {
 
 }
 
-package main
+/*package main
 
 import (
  "fmt"
@@ -182,7 +184,7 @@ func main() {
 
  deleteKey(ages, "Holly")
  fmt.Println("After Deletion: ", ages)
-}*/
+}
 
 //write an anonymous function in go that takes two integers as parameters and returns theis product
 package main
@@ -198,3 +200,4 @@ func main() {
     fmt.Println("Product:", product)
 }
 
+*/
